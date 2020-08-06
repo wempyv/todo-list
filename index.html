@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="dist/attention.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="manifest" href="js/manifest.json">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Todolist App</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-app">
+            <p class="greeting-title"><span class="greeting-name"><br></span></p>
+            <p class="option"><i class="fa fa-cog"></i></p>
+        </div>
+
+        <div class="progress-content">
+            <p class="title">Your progress activity</p>
+
+            <div class="content-box">
+                <div class="box your-activity">
+                    <p class="box-title">Your Activity</p>
+                    <p class="task progress-activity">0 Activities</p>
+                </div>
+
+                <div class="box complete">
+                    <p class="box-title">Date</p>
+                    <p class="task date"></p>
+                </div>
+            </div>
+        </div>
+
+        <form action="" class="issue-fixed" id="todo-form">
+            <label for="">
+                <input type="text" id="todo-input" autocomplete="off" placeholder="Add your activity" />
+            </label>
+            <button type="submit"><i class="fa fa-plus"></i></button>
+        </form>
+
+        <div class="today-activity-content">
+            <div class="activity-header">
+                <p class="title">Today's activity</p>
+            </div>
+        </div>
+
+        <div class="todo">
+            <ul id="todo-list">
+                <!-- <li class="list-item">
+                    <span>
+                        <input type="checkbox" name="" id="">
+                    </span>Buy coffee
+                </li> -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+    <script src="dist/attention.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+</body>
+
+</html>

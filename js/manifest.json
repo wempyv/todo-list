@@ -1,0 +1,22 @@
+{
+    "short_name": "Todolist",
+    "name": "Developed by Wempy Virgana",
+    "icons": [
+      {
+        "src": "../img/192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "../img/512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/index.html",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#3367D6",
+    "orientation":"portrait"
+}
