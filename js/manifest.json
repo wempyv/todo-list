@@ -13,7 +13,7 @@
         "sizes": "512x512"
       }
     ],
-    "start_url": "https://wempyv.github.io/todo-list/index.html",
+    "start_url": "/todo-list/",
     "background_color": "#3367D6",
     "display": "standalone",
     "scope": "/",
